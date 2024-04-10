@@ -1,0 +1,148 @@
+﻿main {
+    margin: auto;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+h1 {
+    padding: 4.5rem 0 1rem;
+    font-size: 4rem;
+}
+
+p {
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+#cat-photos {
+    padding: 7vh 0 0;
+    display: flex;
+    align-items: center;
+}
+
+#cat-photos img {
+    object-fit: cover;
+    width: 25%;
+    height: 25%;
+}
+
+#more-padding {
+    padding: 7vh 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+#more-padding h1 {
+    margin: 0 0 4rem 0;
+}
+
+#calculator, .input-w-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    margin: 10rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#inputs {
+    display: flex;
+}
+
+#calculator label {
+    font-size: 2.8rem;
+    padding: 2rem;
+}
+
+#calculator input {
+    margin-bottom: 1.5rem;
+    width: 30%;
+    height: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#calculator .input-w-label, #calculator .input-w-label input {
+    width: 80%;
+}
+
+#calculator .input-w-label label {
+    font-size: 2rem;
+}
+
+#calculator button {
+    margin: 1.5rem;
+    background: mediumpurple;
+    color: floralwhite;
+    width: 10%;
+    height: 4rem;
+    font-size: 2.5rem;
+    border: solid transparent 2px;
+    border-radius: 5px;
+    transition: color 0.2s ease-out, background 0.2s ease-out, font-weight 0.2s ease-out, border 0.2s ease-out;
+}
+
+#calculator button:hover {
+    background: #B8DB70;
+    color: black;
+    font-weight: bold;
+    border: solid black 3px;
+}
+
+#calculator #result {
+    font-size: 3rem;
+    margin: 10rem auto 9.1rem;
+    padding: 2rem;
+    background: mediumpurple;
+    color: floralwhite;
+}
+
+#calculator #result-years {
+    font-size: 3rem;
+    margin: 10rem auto 4.7rem;
+    padding: 2rem;
+    background: mediumpurple;
+    color: floralwhite;
+}
+
+#photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    row-gap: 6rem;
+}
+
+.photo-with-credit {
+    background: mediumpurple;
+    width: 30vw;
+    height: calc(30vw + 6rem);
+    text-align: center;
+}
+
+.photo-with-credit img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-with-credit p {
+    width: 100%;
+    text-align: center;
+}
+
+.photo-with-credit p a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: floralwhite;
+    font-weight: bold;
+}

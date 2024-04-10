@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Cat Years to Human Years";
+}
+<main id="more-padding">
+    <h1>Calculate your cat's age in human years</h1>
+    <div id="calculator">
+        <h2>How old is your cat?</h2>
+        <div id="inputs">
+            <div class="input-w-label">
+                <label for="months">Months</label>
+                <input type="number" id="months" placeholder="Months">
+            </div>
+            <div class="input-w-label">
+                <label for="years">Years</label>
+                <input type="number" id="years" placeholder="Years">
+            </div>
+        </div>
+        <button id="calculate-button">Calculate</button>
+        <div id="result-years">The result will be displayed here.<br>
+            You will see how many years old your cat would be if it was a human.
+        </div>
+    </div>
+</main>
+<script src="~/js/cat-years.js"></script>

@@ -7,8 +7,4 @@
         <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
     </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Altairis.Services.Cloudflare" Version="1.0.0" />
-    </ItemGroup>
-
 </Project>

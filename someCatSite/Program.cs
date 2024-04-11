@@ -1,9 +1,14 @@
+using Altairis.Services.Cloudflare;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Configure to use Cloudflare proxy
+app.UseCloudflare();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
